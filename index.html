@@ -59,6 +59,39 @@
   })(window,document,'script','dataLayer','GTM-PLH2TQM');</script>
   <!-- End Google Tag Manager -->
 
+ 
+<script src="//unpkg.com/moesif-browser-js@^1/moesif.min.js"></script>
+<script type="text/javascript">
+moesif.init({
+  applicationId: 'eyJhcHAiOiI2NzY6NTA5IiwidmVyIjoiMi4wIiwib3JnIjoiNDM2OjM4MSIsImlhdCI6MTU5ODkxODQwMH0.YrcuhDh7XBJsRZYQBeIgtQt0jbqHTkv7-k1fK9D5VQE'
+});
+</script>
+
+<script>
+  const moesif = require('moesif-browser-js');
+
+moesif.init({
+  applicationId: 'eyJhcHAiOiI2NzY6NTA5IiwidmVyIjoiMi4wIiwib3JnIjoiNDM2OjM4MSIsImlhdCI6MTU5ODkxODQwMH0.YrcuhDh7XBJsRZYQBeIgtQt0jbqHTkv7-k1fK9D5VQE'
+  // add other option here.
+});
+</script>
+
+
+<script>
+  // The first argument is required and contains the action name as a string. 
+// The second argument is optional and contains custom event metadata such as button label.
+moesif.track('Clicked Sign Up', {
+  button_label: 'Get Started',
+  sign_up_method: 'Google SSO'
+});
+</script>
+
+
+<script>
+  // Start capturing AJAX API Calls.
+moesif.start();
+</script>
+
 </head>
 <body  id="imagePreview"  >
 
@@ -348,6 +381,9 @@ $("#imageUpload").change(function() {
 
 <!-- google scearch  -->
 
+
+
+<!-- analice -->
 
 
 
