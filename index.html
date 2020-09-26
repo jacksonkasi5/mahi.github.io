@@ -42,12 +42,26 @@
 
         <link rel="stylesheet" href="./love/love.css">
 
+        <!-- google search -->
+
+        <link rel="stylesheet" href="./first/google.css">
+
 
 </head>
 <body  id="imagePreview"  >
 
   <div id="progressbar"></div>
           
+
+  <form method="post" class="google">
+  <div class="base">
+    <input type="text" />
+    <div class="search-box"></div>
+    <div class="cross">X</div>
+  </div>
+</form>
+ 
+
 
 
 
@@ -293,6 +307,34 @@ $("#imageUpload").change(function() {
 
 
 
+<!-- google scearch  -->
+
+<script>
+
+
+$('.search-box').click(function(){
+  $('.base').addClass('active');
+  
+   setTimeout(function(){
+    $('.cross').addClass('show-cross')
+    }, 300);
+  
+    setTimeout(function(){
+      $('.search-box').addClass('move-search')
+      }, 100);
+}); 
+
+$('.cross').click(function(){
+  setTimeout(function(){
+    $('.base').removeClass('active');
+  }, 100);
+  
+  $('.cross').removeClass('show-cross');
+    
+  $('.search-box').removeClass('move-search');
+});
+
+</script>
 
 
 
