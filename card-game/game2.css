@@ -1,8 +1,9 @@
  body {
 
    
-    background: url(https://images.pexels.com/photos/5442588/pexels-photo-5442588.png?auto=compress&cs=tinysrgb&h=750&w=1260)  ;
-    background-position: center center;
+  /* background: url(https://images.pexels.com/photos/5442588/pexels-photo-5442588.png?auto=compress&cs=tinysrgb&h=750&w=1260)  ; */
+  background: url(https://scontent.fmaa2-2.fna.fbcdn.net/v/t1.0-0/p526x296/120283894_389337495391829_4690719867811695459_o.jpg?_nc_cat=103&_nc_sid=730e14&_nc_ohc=2nQTgs2EjdYAX9GFsf8&_nc_ht=scontent.fmaa2-2.fna&tp=6&oh=9a5209fc00369f0618cc64c6e343ff64&oe=5F95F63B)  ;
+  background-position: center center;
     background-repeat:  no-repeat;
     background-attachment: fixed;
     background-size:  cover;

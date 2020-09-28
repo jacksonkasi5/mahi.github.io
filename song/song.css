@@ -9,7 +9,8 @@ body {
   color: linear-gradient(56deg, rgb(235, 3, 157) 0%, rgba(251,0,208,1) 65%);;
   
   
-  background: url(https://pbs.twimg.com/media/EinXYPvUwAAIUzi?format=jpg&name=small);
+  /* background: url(https://pbs.twimg.com/media/EinXYPvUwAAIUzi?format=jpg&name=small); */
+  background: url(https://pbs.twimg.com/media/Ei_BhXXVkAAAMF6?format=png&name=900x900);
   overflow: hidden;
   margin: 0;
 

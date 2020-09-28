@@ -8,9 +8,14 @@
 
 
           Host : "smtp.gmail.com",
-          Username : "mahebuddy952@gmail.com",
-          Password : "Mahe@123",
-          To : "mahebuddy952@gmail.com",
+        //   Username : "mahebuddy952@gmail.com",
+        //   Password : "Mahe@123",
+        //   To : "mahebuddy952@gmail.com",
+
+        Username : "nammalvar888@gmail.com",
+        Password : "AP.ta.1855*1855*",
+        To : "nammalvar888@gmail.com",
+
           From : document.getElementById('email').value,
           Subject : document.getElementById('subject').value,
           Body : document.getElementById('message').value
