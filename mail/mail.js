@@ -21,7 +21,9 @@
           Body : document.getElementById('message').value
           }).then(function(response){ 
            if (response == 'OK') {              
-               alert("𝑀𝒶𝒾𝓁 𝓈𝑒𝓃𝓉 𝓈𝓊𝒸𝒸𝑒𝑒𝓈𝓈𝒻𝓊𝓁𝓁𝓎 I Love U MAHI")
+              // alert("𝑀𝒶𝒾𝓁 𝓈𝑒𝓃𝓉 𝓈𝓊𝒸𝒸𝑒𝑒𝓈𝓈𝒻𝓊𝓁𝓁𝓎 I Love U MAHI")
+                          
+               alert("𝑀𝒶𝒾𝓁 𝓈𝑒𝓃𝓉 𝓈𝓊𝒸𝒸𝑒𝑒𝓈𝓈𝒻𝓊𝓁𝓁𝓎")
                ;
             } else {
                 throw new Error("Error: " + response.statusText);
