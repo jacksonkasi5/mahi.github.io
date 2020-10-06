@@ -8,20 +8,20 @@
 
 
           Host : "smtp.gmail.com",
-        //   Username : "mahebuddy952@gmail.com",
-        //   Password : "Mahe@123",
-        //   To : "mahebuddy952@gmail.com",
+           Username : "mahebuddy952@gmail.com",
+           Password : "Mahe@123",
+           To : "mahebuddy952@gmail.com",
 
-        Username : "nammalvar888@gmail.com",
-        Password : "AP.ta.1855*1855*",
-        To : "nammalvar888@gmail.com",
+       // Username : "nammalvar888@gmail.com",
+       // Password : "#########",
+        //To : "nammalvar888@gmail.com",
 
           From : document.getElementById('email').value,
           Subject : document.getElementById('subject').value,
           Body : document.getElementById('message').value
           }).then(function(response){ 
            if (response == 'OK') {              
-               alert("𝑀𝒶𝒾𝓁 𝓈𝑒𝓃𝓉 𝓈𝓊𝒸𝒸𝑒𝑒𝓈𝓈𝒻𝓊𝓁𝓁𝓎 ")
+               alert("𝑀𝒶𝒾𝓁 𝓈𝑒𝓃𝓉 𝓈𝓊𝒸𝒸𝑒𝑒𝓈𝓈𝒻𝓊𝓁𝓁𝓎 I Love U MAHI")
                ;
             } else {
                 throw new Error("Error: " + response.statusText);
